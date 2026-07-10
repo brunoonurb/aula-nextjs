@@ -34,10 +34,10 @@ export default function RootLayout({
 
         <Menu menuForm="Fomulario Menu" menuUser="Usuario Mennu" menuFormUser="Form Usuarios" />
         <br />
-        <MenuJS menuForm={"Fomulario Menu"} menuUser="Usuario Mennu" menuFormUser="Form Usuarios" />
+        {/* <MenuJS menuForm={"Fomulario Menu"} menuUser="Usuario Mennu" menuFormUser="Form Usuarios" /> */}
 
 
-        <div className=" dark:bg-white">
+        <div className="">
 
           {children}
         </div>
